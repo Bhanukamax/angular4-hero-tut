@@ -18,8 +18,6 @@ import { HeroService } from './hero.service';
 
 		</div>
 	`
-
-
 })
 
 export class HeroDetailsComponent {
