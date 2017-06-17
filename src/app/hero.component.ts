@@ -11,7 +11,6 @@ import { HeroService } from './hero.service';
 })
 
 export class HeroComponent implements OnInit {
-	title = "Tour of Heros";
 	heroes: Hero[];
 	selectedHero: Hero;
 	constructor(private HeroService: HeroService) {}
