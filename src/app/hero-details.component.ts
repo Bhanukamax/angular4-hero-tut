@@ -9,6 +9,7 @@ import { HeroService } from './hero.service';
 
 @Component({
 	selector: 'hero-details',
+	styleUrls: [ './hero-details.component.css' ],
 	template: `
 		<div *ngIf="hero">
 			<h2>{{hero.name}} details...</h2>
